@@ -1,0 +1,9 @@
+numpy==1.24.3 
+ipykernel==6.29.5
+matplotlib==3.9.2
+pandas==2.2.3
+tqdm==4.66.5
+seaborn
+scikit-learn
+plyfile
+simple_knn
