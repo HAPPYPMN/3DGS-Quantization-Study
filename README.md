@@ -8,8 +8,8 @@ This repository supports analyzing the impact of quantization on SH color repres
 
 To set up the environment, follow these steps:
 ```bash
-conda create --name 3dgs_arch python=3.10
-conda activate 3dgs_arch
+conda create --name 3dgs_quant python=3.10
+conda activate 3dgs_quant
 ```
 Make sure you install all necessary dependencies before running the simulator.
 ```bash
