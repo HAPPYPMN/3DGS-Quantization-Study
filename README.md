@@ -6,8 +6,13 @@ This repository supports analyzing the impact of quantization on SH color repres
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
-
+To set up the environment, follow these steps:
 ```bash
-git clone https://github.com/HAPPYPMN/3DGS-Quantization-Study.git
-cd 3DGS-Quantization-Study
+conda create --name 3dgs_arch python=3.10
+conda activate 3dgs_arch
+```
+Make sure you install all necessary dependencies before running the simulator.
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+```
